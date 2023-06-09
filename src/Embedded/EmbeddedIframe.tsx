@@ -10,7 +10,7 @@ export interface SignWellEmbedComponentProps {
   embeddedSigningUrl: string
 }
 
-export const SignWellEmbedComponent = ({ embeddedSigningUrl }: SignWellEmbedComponentProps) => {
+export const SignWellEmbedComponent = ({ embeddedSigningUrl = '' }: SignWellEmbedComponentProps) => {
   useEffect(() => {
     const script = document.createElement('script')
     script.src = 'https://static.signwell.com/assets/embedded.js'

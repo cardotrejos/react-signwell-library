@@ -10,8 +10,7 @@
     ".": {
       "import": "./dist/react-signwell-library.es.js",
       "require": "./dist/react-signwell-library.umd.js"
-    },
-    "./types": "./dist/index.d.ts"
+    }
   },
   "main": "./dist/react-signwell-library.umd.js",
   "module": "./dist/react-signwell-library.es.js",
@@ -63,8 +62,8 @@
     "vite-tsconfig-paths": "^4.2.0"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "16.8.0 || >=17.x",
+    "react-dom": "16.8.0 || >=17.x"
   },
   "repository": {
     "type": "git",
