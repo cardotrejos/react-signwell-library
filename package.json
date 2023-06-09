@@ -30,8 +30,7 @@
     ".": {
       "import": "./dist/react-signwell-library.es.js",
       "require": "./dist/react-signwell-library.umd.js"
-    },
-    "./dist/style.css": "./dist/style.css"
+    }
   },
   "main": "./dist/react-signwell-library.umd.js",
   "module": "./dist/react-signwell-library.es.js",
@@ -53,6 +52,7 @@
     "eslint-plugin-react-refresh": "^0.3.4",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "react-hooks": "^1.0.1",
     "typescript": "^5.0.2",
