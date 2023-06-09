@@ -1,2 +1,2 @@
-export type { SignWellEmbedComponentProps } from './EmbeddedIframe'
-export { SignWellEmbedComponent } from './EmbeddedIframe'
+export type { SignWellEmbedComponentProps } from './Embedded/EmbeddedIframe'
+export { SignWellEmbedComponent } from './Embedded/EmbeddedIframe'
