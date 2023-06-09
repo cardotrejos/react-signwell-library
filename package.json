@@ -1,8 +1,20 @@
 {
   "name": "react-signwell-library",
   "private": false,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "0.0.2",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/react-signwell-library.es.js",
+      "require": "./dist/react-signwell-library.umd.js"
+    },
+    "./types": "./dist/index.d.ts"
+  },
+  "main": "./dist/react-signwell-library.umd.js",
+  "module": "./dist/react-signwell-library.es.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -23,18 +35,6 @@
       "yarn  format"
     ]
   },
-  "files": [
-    "dist"
-  ],
-  "exports": {
-    ".": {
-      "import": "./dist/react-signwell-library.es.js",
-      "require": "./dist/react-signwell-library.umd.js"
-    }
-  },
-  "main": "./dist/react-signwell-library.umd.js",
-  "module": "./dist/react-signwell-library.es.js",
-  "types": "./dist/index.d.ts",
   "devDependencies": {
     "@types/node": "^20.2.5",
     "@types/react": "^18.0.37",
@@ -69,7 +69,7 @@
     "type": "git",
     "url": "https://github.com/cardotrejos/react-signwell-library"
   },
-  "keywords": [],
+  "keywords": ["signwell", "react", "library"],
   "author": "Ricardo Trejos",
   "bugs": {
     "url": "https://github.com/cardotrejos/react-signwell-library/issues"

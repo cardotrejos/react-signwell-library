@@ -22,7 +22,7 @@ export default defineConfig((configEnv) => ({
   ],
   build: {
     lib: {
-      entry: resolve('src', 'index.ts'),
+      entry: resolve('src/', 'index.ts'),
       name: 'ReactSignwellLibrary',
       formats: ['es', 'umd'],
       fileName: (format) => `react-signwell-library.${format}.js`,
