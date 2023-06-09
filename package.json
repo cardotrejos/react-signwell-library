@@ -2,6 +2,7 @@
   "name": "react-signwell-library",
   "private": false,
   "version": "0.0.3",
+  "type": "module",
   "files": [
     "dist"
   ],
