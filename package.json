@@ -2,7 +2,7 @@
   "name": "react-signwell-library",
   "type": "module",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.6",
   "main": "./dist/react-signwell-library.umd.js",
   "module": "./dist/react-signwell-library.es.js",
   "types": "./dist/index.d.ts",
@@ -12,7 +12,8 @@
   "exports": {
     ".": {
       "import": "./dist/react-signwell-library.es.js",
-      "require": "./dist/react-signwell-library.umd.js"
+      "require": "./dist/react-signwell-library.umd.js",
+      "types": "./dist/index.d.ts"
     }
   },
 
