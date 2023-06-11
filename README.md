@@ -72,4 +72,3 @@ For more, check out the [Contributing Guide](./CONTRIBUTING.md).
 
 - GitHub: [@cardotrejos](https://github.com/cardotrejos)
 - Email: [cardotrejos@gmail.com](mailto:cardotrejos@gmail.com)
-```
