@@ -13,7 +13,7 @@ export default defineConfig((configEnv) => ({
     react(),
     tsConfigPaths(),
     linterPlugin({
-      include: ['./src}/**/*.{ts,tsx}'],
+      include: ['./src/**/*.{ts,tsx}'],
       linters: [new EsLinter({ configEnv })],
     }),
     dts({
@@ -24,14 +24,13 @@ export default defineConfig((configEnv) => ({
     lib: {
       entry: resolve('src/', 'index.ts'),
       name: 'ReactSignwellLibrary',
-      formats: ['es', 'umd'],
       fileName: (format) => `react-signwell-library.${format}.js`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],
       output: {
         globals: {
-          'react': 'React'
+          react: 'React'
         }
       },
     },
